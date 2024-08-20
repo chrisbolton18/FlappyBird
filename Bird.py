@@ -5,7 +5,7 @@ class Bird:
     def __init__(self, screen_dim):
         #starting position
         self.screen_dim = screen_dim
-        self.radius = 20
+        self.radius = 15
         self.x = screen_dim[1] // 2   
         self.y = screen_dim[1] // 2  
         self.vx = 0
